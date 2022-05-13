@@ -14,7 +14,7 @@ def is_palindrome2(string2):
         return True
     else:
         return string2[0] == string2[-1] and is_palindrome2(string2[1:-1])
-print(is_palindrome('atmamta'))
+print(is_palindrome2('atmamta'))
 
 '''
 Написать функцию которая принимает в качестве аргумента строку, и возвращает True, если строка является полиндромом и False если нет.
